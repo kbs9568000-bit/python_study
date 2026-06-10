@@ -40,11 +40,39 @@ score = 80
 
 score = 75
 
-if score >= 90:
-    print("A")
-elif score >= 80:
-    print("B")
-elif score >= 70:
-    print(score,"점이라서 C이군요") #75점이라서 C군요
-else:
-    print("F")
+#if score >= 90:
+    #print("A")
+#elif score >= 80:
+    #print("B")
+#elif score >= 70:
+    #print(score,"점이라서 C이군요") #75점이라서 C군요
+#else:
+    #print("F")
+
+fruits = ["사과", "바나나", "포도"]
+유치원 = {
+    #"해바라기" : ["유아인","정혜인"],
+    #"무궁화" : [],
+    #"개나리" : ["신동엽"]
+}
+    
+#"시각화훈련" : [ "과목" : ["파이썬", "깃"]]
+
+#"나" : {"애완동물" : ["고양이":["보미","겨울"], "개":["돌돌이"]]}
+
+student = { 
+    #"이름": "홍길동",
+    #"나이": 25
+}
+fruits = ("사과", "포도", "바나나")
+
+for fruit in fruits:
+    print(fruit)
+
+word = "python"
+
+for ch in word:
+        if(ch == "t"):
+            print(ch)
+        else:
+            print("다필요없어")
